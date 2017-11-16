@@ -28,6 +28,8 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
+	admob.initAdmob("ca-app-pub-7251676025279948/7827344712","ca-app-pub-7251676025279948/5792208319");//admob id format ca-app-pub-xxxxxxxxxxxxxxxxxxx/xxxxxxxxxx
+        admob.showBanner(admob.BannerSize.BANNER,admob.Position.TOP_APP);//show banner at the top of app 
     },
 
     // Update DOM on a Received Event
