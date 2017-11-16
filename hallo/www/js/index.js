@@ -38,7 +38,9 @@ var app = {
 
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
-
+initAd();
+showBannerFunc();
+showInterstitialFunc();
         console.log('Received Event: ' + id);
     }
 };
