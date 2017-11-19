@@ -28,6 +28,24 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
+
+        document.addEventListener('deviceready', function () {
+  // Enable to debug issues.
+  // window.plugins.OneSignal.setLogLevel({logLevel: 4, visualLevel: 4});
+  
+  var notificationOpenedCallback = function(jsonData) {
+    console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
+  };
+
+  window.plugins.OneSignal
+    .startInit(" 5250d68b-d97b-48fe-8bbd-2b91db5b1930")
+    .handleNotificationOpened(notificationOpenedCallback)
+    .endInit();
+  
+  // Call syncHashedEmail anywhere in your app if you have the user's email.
+  // This improves the effectiveness of OneSignal's "best-time" notification scheduling feature.
+  // window.plugins.OneSignal.syncHashedEmail(userEmail);
+}, false);
     },
 
     // Update DOM on a Received Event

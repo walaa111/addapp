@@ -12,6 +12,9 @@
     },
     "cordova-plugin-admob-simple": {
       "PACKAGE_NAME": "com.example.hallo"
+    },
+    "onesignal-cordova-plugin": {
+      "PACKAGE_NAME": "com.example.hallo"
     }
   },
   "dependent_plugins": {
