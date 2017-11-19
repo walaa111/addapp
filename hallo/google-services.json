@@ -1,25 +1,25 @@
 {
   "project_info": {
-    "project_number": "1072539909816",
-    "project_id": "test2-c3405"
+    "project_number": "997668479188",
+    "project_id": "series-9607a"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1072539909816:android:d8fdfc8303971ff4",
+        "mobilesdk_app_id": "1:997668479188:android:cc730e738ca289fc",
         "android_client_info": {
-          "package_name": "com.test2.app"
+          "package_name": "com.seriesapp.app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1072539909816-getfkg9kdmugnrldk6lv2ju083ol90ab.apps.googleusercontent.com",
+          "client_id": "997668479188-rao9s0aqnohmh34fckl4536u349jhkkv.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAyTQQrtksXdVH48Te0CFlj4aMHCMB4Pdg"
+          "current_key": "AIzaSyCIus4orbOXe-66i5TlbGKB-4dobn4tM20"
         }
       ],
       "services": {
